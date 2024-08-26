@@ -50,7 +50,6 @@
 // console.log(temp);
 // let temp = 7;
 
-// Temperal Dead Zone : is the time between the decleration and the intialisation of let and const variable
 
 
 // function abc(){
@@ -65,14 +64,19 @@
 
 // HOISTING 
 
-getName()
-console.log(x)
-console.log(getName())
+// getName()
+// console.log(x)
+// console.log(getName())
 
-var x = 7
- function getName(){
-  console.log('hello duniya from inside')
- }
+// var x = 7
+//  function getName(){
+//   console.log('hello duniya from inside')
+//  }
 
+// Temporal Dead Zone 
+// Temperal Dead Zone : is the time between the decleration and the intialisation of let and const variable
  
- 
+ console.log(b)
+ let a = 10
+ var b = 20
+ const c = 30
