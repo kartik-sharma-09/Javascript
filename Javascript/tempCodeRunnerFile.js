@@ -1,6 +1,14 @@
-printFullName.call(name, "HMH", "Rajasthan"); //
-// printFullName.apply(name, ["town", "Rajasthan2"]);
+export default class User {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
 
-// let printMyNameIs = printFullName.bind(name, "Gurgaon", "Haryana");
-// console.log(printMyNameIs);
-// printMyNameIs();
+// export function printName(user) {
+//   console.log(`User's name is ${user.age}`);
+// }
+
+// export function printAge(user) {
+//   console.log(`User is ${user.age} years old`);
+// }
