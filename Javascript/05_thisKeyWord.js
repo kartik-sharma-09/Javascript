@@ -85,9 +85,9 @@ function test1() {
 
 const tea2 = function () {
   let myName = "Kartikkk";
-  console.log(this.myName);
+  console.log("name is ",this.myName);
 };
-// tea2()
+tea2()
 
 const tea = () => {
   let myName = "Kartikkk";
@@ -161,17 +161,17 @@ function test() {
 
 // user.fullName();
 
-const user = {
-  firstName: "kartik",
-  lastName: "sharma",
-  hobbies: ["study", "bookReading"],
-  listHobbies: function () {
-    this.hobbies.forEach(function (hobby) {
-      console.log(this);
-      console.log(hobby);
-    }, this);
-  },
-};
+// const user = {
+//   firstName: "kartik",
+//   lastName: "sharma",
+//   hobbies: ["study", "bookReading"],
+//   listHobbies: function () {
+//     this.hobbies.forEach(function (hobby) {
+//       console.log(this);
+//       console.log(hobby);
+//     }, this);
+//   },
+// };
 
 // user.listHobbies()
 
